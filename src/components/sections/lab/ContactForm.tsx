@@ -343,7 +343,7 @@ export function ContactForm({
           ) : null}
         </div>
 
-        <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
+        <Button type="submit" size="lg" disabled={isSubmitting || !turnstileToken} className="w-full sm:w-auto">
           {isSubmitting ? t("submitting") : t("submit")}
         </Button>
       </form>
