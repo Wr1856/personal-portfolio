@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline — Wesley Maia</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #05070b;
+        color: #e8e2d6;
+        font-family: Georgia, "Times New Roman", serif;
+        text-align: center;
+        padding: 24px;
+      }
+      .frame {
+        border: 1px solid rgba(232, 226, 214, 0.14);
+        padding: 48px 32px;
+        max-width: 420px;
+      }
+      .monogram {
+        font-size: 40px;
+        color: #8c7650;
+        letter-spacing: 4px;
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 500;
+        margin: 24px 0 8px;
+      }
+      p {
+        color: #a8adb5;
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 8px 0;
+      }
+      button {
+        margin-top: 24px;
+        background: #315c7c;
+        color: #e8e2d6;
+        border: 1px solid #315c7c;
+        padding: 12px 28px;
+        font-size: 15px;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #102a43;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="monogram" aria-hidden="true">WM</div>
+      <h1>Você está offline</h1>
+      <p>
+        Não foi possível carregar esta página sem conexão. Verifique sua
+        internet e tente novamente.
+      </p>
+      <p lang="en">
+        You are offline. This page could not be loaded without a connection.
+        Check your internet and try again.
+      </p>
+      <button type="button" onclick="location.reload()">
+        Recarregar · Reload
+      </button>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,406 @@
+{
+  "common": {
+    "brandName": "Wesley Maia",
+    "monogram": "WM",
+    "professionalTitle": "Desenvolvedor e Especialista em Soluções Digitais",
+    "tagline": "Transformo complexidade em soluções digitais que funcionam, comunicam e crescem.",
+    "remoteBadge": "Atendimento remoto",
+    "loading": "Carregando…",
+    "error": "Algo deu errado. Tente novamente.",
+    "retry": "Tentar novamente",
+    "close": "Fechar",
+    "open": "Abrir",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "externalLink": "abre em nova aba",
+    "skipToContent": "Pular para o conteúdo",
+    "notAvailable": "Não informado"
+  },
+  "nav": {
+    "home": "Início",
+    "profile": "Perfil",
+    "archive": "Acervo",
+    "lab": "Wesley Lab",
+    "resume": "Currículo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "mainNavigation": "Navegação principal",
+    "languageSwitcher": "Selecionar idioma",
+    "portuguese": "Português",
+    "english": "Inglês"
+  },
+  "hero": {
+    "kicker": "Estúdio digital independente",
+    "scrollHint": "Role para explorar",
+    "exploreArchive": "Explorar o acervo",
+    "talkToWesley": "Falar com Wesley",
+    "downloadResume": "Baixar currículo",
+    "portraitAlt": "Retrato de Wesley Maia",
+    "sealLabel": "Selo do monograma WM"
+  },
+  "profile": {
+    "sectionNumber": "01",
+    "title": "Perfil",
+    "subtitle": "Formação, prática e direção profissional",
+    "bio": "Wesley Maia é bacharel em Ciência da Computação, com experiência em desenvolvimento, análise de sistemas, redes, infraestrutura, suporte, qualidade de software e ensino de tecnologia. Possui atuação em aplicações front-end e back-end, APIs, bancos de dados, ambientes Linux e Windows, ERP, infraestrutura, redes e armazenamento. Está expandindo sua atuação em marketing digital, criação visual, presença de marca, tráfego pago, conteúdo e engajamento.",
+    "pillars": {
+      "build": {
+        "title": "Construir",
+        "description": "Sites, sistemas, APIs, automações, integrações e bancos de dados.",
+        "items": ["Sites", "Sistemas", "APIs", "Automações", "Integrações", "Bancos de dados"]
+      },
+      "communicate": {
+        "title": "Comunicar",
+        "description": "Marketing digital, design para comunicação, landing pages, conteúdo, presença de marca, campanhas e tráfego pago.",
+        "items": ["Marketing digital", "Design para comunicação", "Landing pages", "Conteúdo", "Presença de marca", "Campanhas", "Tráfego pago"]
+      },
+      "sustain": {
+        "title": "Sustentar",
+        "description": "Suporte, hardware, infraestrutura, redes, servidores, testes e qualidade.",
+        "items": ["Suporte", "Hardware", "Infraestrutura", "Redes", "Servidores", "Testes e qualidade"]
+      }
+    },
+    "technologiesTitle": "Tecnologias e práticas",
+    "availability": "Atendimento remoto nacional e internacional. Atendimento presencial sujeito à disponibilidade, localização e custos de deslocamento do solicitante.",
+    "quote": "Aquele que tem um porquê para viver pode suportar quase qualquer como.",
+    "quoteAuthor": "Friedrich Nietzsche"
+  },
+  "archive": {
+    "sectionNumber": "02",
+    "title": "Acervo",
+    "subtitle": "Projetos, certificações e experiências registradas",
+    "tabs": {
+      "projects": "Projetos",
+      "certifications": "Certificações",
+      "experiences": "Experiências"
+    },
+    "counters": {
+      "projects": "{count, plural, =0 {Nenhum projeto} one {# projeto} other {# projetos}}",
+      "certifications": "{count, plural, =0 {Nenhuma certificação} one {# certificação} other {# certificações}}",
+      "experiences": "{count, plural, =0 {Nenhuma experiência} one {# experiência} other {# experiências}}"
+    },
+    "projects": {
+      "searchLabel": "Pesquisar por título ou tecnologia",
+      "searchPlaceholder": "Buscar no acervo…",
+      "filterLabel": "Filtrar por categoria",
+      "allCategories": "Todas as categorias",
+      "viewDetails": "Ver detalhes",
+      "coverAlt": "Capa do projeto {title}",
+      "empty": "Nenhum projeto publicado até o momento.",
+      "noResults": "Nenhum projeto corresponde à busca.",
+      "clearFilters": "Limpar filtros",
+      "types": {
+        "professional": "Profissional",
+        "brand": "Marca Wesley Maia",
+        "academic": "Acadêmico",
+        "conceptual": "Conceitual",
+        "in_development": "Em desenvolvimento"
+      },
+      "statuses": {
+        "completed": "Concluído",
+        "in_progress": "Em andamento",
+        "maintained": "Em manutenção",
+        "archived": "Arquivado"
+      },
+      "modal": {
+        "problem": "Problema",
+        "solution": "Solução",
+        "result": "Resultado",
+        "technologies": "Tecnologias",
+        "visitOriginal": "Ver original",
+        "viewRepository": "Ver repositório",
+        "viewDemo": "Ver demonstração",
+        "watchVideo": "Assistir vídeo",
+        "closeProject": "Fechar projeto"
+      }
+    },
+    "certifications": {
+      "issuer": "Instituição",
+      "category": "Categoria",
+      "issued": "Emissão",
+      "expires": "Validade",
+      "credentialCode": "Credencial",
+      "verify": "Validar credencial",
+      "empty": "Nenhuma certificação publicada até o momento."
+    },
+    "experiences": {
+      "current": "Atual",
+      "skills": "Competências",
+      "empty": "Nenhuma experiência publicada até o momento.",
+      "period": "{start} — {end}",
+      "present": "presente"
+    }
+  },
+  "lab": {
+    "sectionNumber": "03",
+    "title": "Wesley Lab",
+    "subtitle": "Onde desafios se tornam soluções.",
+    "intro": "Escolha o que descreve melhor sua necessidade. Os serviços relacionados serão destacados e o formulário será preparado para você.",
+    "needs": {
+      "build_site": "Quero construir um site ou sistema",
+      "fix_problem": "Preciso resolver um problema técnico",
+      "promote_business": "Quero divulgar meu negócio",
+      "improve_identity": "Quero melhorar minha identidade digital",
+      "meet_wesley": "Quero conhecer Wesley profissionalmente",
+      "other": "Minha necessidade é diferente"
+    },
+    "needsLegend": "O que você precisa hoje?",
+    "servicesTitle": "Serviços",
+    "relatedServices": "Serviços relacionados à sua escolha",
+    "startingPrice": "A partir de {price}",
+    "priceOnRequest": "Investimento definido após análise do escopo.",
+    "remote": "Remoto",
+    "onsite": "Presencial",
+    "featured": "Destaque",
+    "empty": "Nenhum serviço publicado até o momento.",
+    "meetWesleyHint": "Conheça o perfil completo e o acervo de projetos, certificações e experiências.",
+    "goToProfile": "Ver perfil",
+    "goToArchive": "Ver acervo"
+  },
+  "contact": {
+    "title": "Iniciar uma conversa",
+    "subtitle": "Conte o que você precisa. A resposta chega por e-mail ou WhatsApp, como preferir.",
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp",
+      "whatsappHint": "Com DDD, por exemplo: 71 91234-5678",
+      "category": "Categoria da necessidade",
+      "message": "Descreva sua necessidade",
+      "preferredContact": "Forma de contato preferida",
+      "preferredEmail": "E-mail",
+      "preferredWhatsapp": "WhatsApp",
+      "consent": "Autorizo o armazenamento destes dados para retorno do contato, conforme a política de privacidade."
+    },
+    "categories": {
+      "build_site": "Site ou sistema",
+      "fix_problem": "Problema técnico",
+      "promote_business": "Divulgação e marketing",
+      "improve_identity": "Identidade digital",
+      "meet_wesley": "Contato profissional",
+      "other": "Outro assunto"
+    },
+    "validation": {
+      "nameRequired": "Informe seu nome.",
+      "nameTooLong": "O nome deve ter no máximo 120 caracteres.",
+      "emailInvalid": "Informe um e-mail válido.",
+      "whatsappInvalid": "Informe um número de WhatsApp válido.",
+      "emailOrWhatsapp": "Informe pelo menos um e-mail ou um WhatsApp.",
+      "categoryRequired": "Escolha uma categoria.",
+      "messageRequired": "Descreva sua necessidade em pelo menos 10 caracteres.",
+      "messageTooLong": "A descrição deve ter no máximo 2000 caracteres.",
+      "preferredRequired": "Escolha a forma de contato preferida.",
+      "consentRequired": "É necessário autorizar o armazenamento para enviar.",
+      "turnstileRequired": "Confirme a verificação de segurança.",
+      "turnstileFailed": "A verificação de segurança falhou. Recarregue e tente novamente.",
+      "rateLimited": "Muitos envios em pouco tempo. Aguarde alguns minutos.",
+      "serverError": "Não foi possível enviar agora. Tente novamente em instantes."
+    },
+    "submit": "Enviar mensagem",
+    "submitting": "Enviando…",
+    "success": {
+      "title": "Mensagem recebida",
+      "description": "Obrigado pelo contato. A resposta chega pelo canal que você escolheu.",
+      "continueWhatsapp": "Continuar no WhatsApp",
+      "newMessage": "Enviar outra mensagem"
+    },
+    "whatsappMessage": "Olá, Wesley. Meu nome é {name}. Categoria: {category}. {message}",
+    "publicChannels": "Canais públicos",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "E-mail",
+    "githubLabel": "GitHub"
+  },
+  "wesleyAi": {
+    "title": "Wesley AI",
+    "badge": "Em breve",
+    "openPanel": "Abrir informações sobre a Wesley AI",
+    "description": "Uma assistente treinada com o conteúdo público deste site está em desenvolvimento. Ela vai ajudar a explorar projetos, serviços e formas de contato.",
+    "notYet": "Por enquanto, estes atalhos levam você direto ao que precisa:",
+    "goToArchive": "Explorar o acervo",
+    "goToLab": "Conhecer o Wesley Lab",
+    "goToContact": "Falar com Wesley"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "cookies": "Cookies",
+    "cookiePreferences": "Preferências de cookies",
+    "builtBy": "Projetado e desenvolvido por Wesley Maia."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies e privacidade",
+      "description": "Este site usa cookies necessários para funcionar e, com o seu consentimento, métricas anônimas de uso (Vercel Analytics).",
+      "acceptAll": "Aceitar tudo",
+      "rejectAnalytics": "Somente necessários",
+      "customize": "Preferências"
+    },
+    "preferences": {
+      "title": "Preferências de cookies",
+      "necessary": "Necessários",
+      "necessaryDescription": "Essenciais para o funcionamento do site: idioma, sessão administrativa e sua escolha de consentimento. Não podem ser desativados.",
+      "analytics": "Analytics",
+      "analyticsDescription": "Métricas anônimas de navegação (Vercel Analytics) para entender o uso do site. Carregadas somente com o seu consentimento.",
+      "save": "Salvar preferências"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Política de privacidade",
+      "updated": "Última atualização: {date}"
+    },
+    "cookiesPage": {
+      "title": "Cookies",
+      "updated": "Última atualização: {date}"
+    }
+  },
+  "pwa": {
+    "install": "Instalar aplicativo",
+    "offlineTitle": "Você está offline",
+    "offlineDescription": "Não foi possível carregar esta página sem conexão. Verifique sua internet e tente novamente.",
+    "offlineRetry": "Recarregar"
+  },
+  "errors": {
+    "notFoundTitle": "Página não encontrada",
+    "notFoundDescription": "O endereço que você procurou não existe ou foi movido.",
+    "goHome": "Ir para o início",
+    "errorTitle": "Algo deu errado",
+    "errorDescription": "Ocorreu um erro inesperado. Você pode tentar novamente.",
+    "tryAgain": "Tentar novamente"
+  },
+  "admin": {
+    "login": {
+      "title": "Painel administrativo",
+      "subtitle": "Acesso restrito ao administrador do site.",
+      "email": "E-mail",
+      "password": "Senha",
+      "submit": "Entrar",
+      "submitting": "Entrando…",
+      "invalidCredentials": "E-mail ou senha inválidos.",
+      "unauthorized": "Este e-mail não tem permissão administrativa.",
+      "genericError": "Não foi possível entrar. Tente novamente."
+    },
+    "nav": {
+      "projects": "Projetos",
+      "certifications": "Certificações",
+      "experiences": "Experiências",
+      "profile": "Perfil",
+      "viewSite": "Ver site",
+      "logout": "Sair"
+    },
+    "profile": {
+      "title": "Arquivos do perfil",
+      "description": "Envie a foto usada no hero e o currículo em PDF disponibilizado para download.",
+      "photo": "Foto do perfil (JPEG, PNG, WebP ou AVIF, até 5 MB)",
+      "resume": "Currículo em PDF (até 8 MB)",
+      "currentPhoto": "Foto atual",
+      "currentResume": "Currículo atual",
+      "noPhoto": "Nenhuma foto enviada.",
+      "noResume": "Nenhum currículo enviado."
+    },
+    "table": {
+      "new": "Novo registro",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "confirmDeleteTitle": "Confirmar exclusão",
+      "confirmDeleteDescription": "Esta ação é permanente e não pode ser desfeita.",
+      "published": "Publicado",
+      "hidden": "Oculto",
+      "publish": "Publicar",
+      "hide": "Ocultar",
+      "featured": "Destaque",
+      "aiVisible": "Visível para IA",
+      "moveUp": "Mover para cima",
+      "moveDown": "Mover para baixo",
+      "actions": "Ações",
+      "empty": "Nenhum registro cadastrado.",
+      "status": "Estado"
+    },
+    "form": {
+      "save": "Salvar",
+      "saving": "Salvando…",
+      "cancel": "Cancelar",
+      "created": "Registro criado com sucesso.",
+      "updated": "Registro atualizado com sucesso.",
+      "deleted": "Registro excluído.",
+      "error": "Não foi possível salvar. Verifique os campos e tente novamente.",
+      "fileTooLarge": "O arquivo excede o tamanho máximo permitido.",
+      "fileInvalidType": "Tipo de arquivo não permitido.",
+      "uploadError": "Falha ao enviar o arquivo.",
+      "portugueseSection": "Conteúdo em português",
+      "englishSection": "Conteúdo em inglês",
+      "settingsSection": "Configurações",
+      "filesSection": "Arquivos",
+      "currentFile": "Arquivo atual",
+      "preview": "Pré-visualizar",
+      "required": "Campo obrigatório",
+      "invalidUrl": "URL inválida",
+      "invalidSlug": "Use apenas letras minúsculas, números e hifens",
+      "invalidDate": "Data inválida"
+    },
+    "projects": {
+      "title": "Projetos",
+      "fields": {
+        "slug": "Slug (URL)",
+        "titlePt": "Título (PT)",
+        "titleEn": "Título (EN)",
+        "summaryPt": "Resumo (PT)",
+        "summaryEn": "Resumo (EN)",
+        "problemPt": "Problema (PT)",
+        "problemEn": "Problema (EN)",
+        "solutionPt": "Solução (PT)",
+        "solutionEn": "Solução (EN)",
+        "resultPt": "Resultado (PT, opcional)",
+        "resultEn": "Resultado (EN, opcional)",
+        "category": "Categoria",
+        "projectType": "Tipo do projeto",
+        "status": "Estado",
+        "technologies": "Tecnologias (separadas por vírgula)",
+        "cover": "Imagem de capa",
+        "videoUrl": "URL de vídeo (opcional)",
+        "demoUrl": "URL de demonstração (opcional)",
+        "repositoryUrl": "URL do repositório (opcional, somente se público)",
+        "originalUrl": "URL original (opcional)"
+      }
+    },
+    "certifications": {
+      "title": "Certificações",
+      "fields": {
+        "title": "Nome",
+        "issuer": "Instituição",
+        "category": "Categoria",
+        "issueDate": "Data de emissão",
+        "expirationDate": "Validade (opcional)",
+        "credentialCode": "Código da credencial (opcional)",
+        "credentialUrl": "URL de validação (opcional)",
+        "privateFile": "Arquivo do certificado (privado)"
+      },
+      "privateNote": "O arquivo é armazenado em bucket privado e nunca é exposto publicamente."
+    },
+    "experiences": {
+      "title": "Experiências",
+      "fields": {
+        "company": "Empresa",
+        "rolePt": "Cargo (PT)",
+        "roleEn": "Cargo (EN)",
+        "descriptionPt": "Descrição (PT)",
+        "descriptionEn": "Descrição (EN)",
+        "startDate": "Data de início",
+        "endDate": "Data de término (opcional)",
+        "isCurrent": "Posição atual",
+        "skills": "Competências (separadas por vírgula)"
+      }
+    }
+  },
+  "meta": {
+    "title": "Wesley Maia — Desenvolvedor e Especialista em Soluções Digitais",
+    "description": "Portfólio de Wesley Maia: desenvolvimento de sites, sistemas e APIs, infraestrutura, suporte, qualidade de software e comunicação digital. Atendimento remoto nacional e internacional.",
+    "privacyTitle": "Política de privacidade — Wesley Maia",
+    "privacyDescription": "Como este site trata dados pessoais enviados pelo formulário de contato.",
+    "cookiesTitle": "Cookies — Wesley Maia",
+    "cookiesDescription": "Quais cookies este site utiliza e como controlar suas preferências."
+  }
+}

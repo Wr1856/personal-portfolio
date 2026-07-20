@@ -1,0 +1,406 @@
+{
+  "common": {
+    "brandName": "Wesley Maia",
+    "monogram": "WM",
+    "professionalTitle": "Developer and Digital Solutions Specialist",
+    "tagline": "I turn complexity into digital solutions that work, communicate, and grow.",
+    "remoteBadge": "Remote services",
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Try again",
+    "close": "Close",
+    "open": "Open",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "externalLink": "opens in a new tab",
+    "skipToContent": "Skip to content",
+    "notAvailable": "Not provided"
+  },
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "archive": "Archive",
+    "lab": "Wesley Lab",
+    "resume": "Résumé",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "languageSwitcher": "Select language",
+    "portuguese": "Portuguese",
+    "english": "English"
+  },
+  "hero": {
+    "kicker": "Independent digital studio",
+    "scrollHint": "Scroll to explore",
+    "exploreArchive": "Explore the archive",
+    "talkToWesley": "Talk to Wesley",
+    "downloadResume": "Download résumé",
+    "portraitAlt": "Portrait of Wesley Maia",
+    "sealLabel": "WM monogram seal"
+  },
+  "profile": {
+    "sectionNumber": "01",
+    "title": "Profile",
+    "subtitle": "Education, practice, and professional direction",
+    "bio": "Wesley Maia holds a bachelor's degree in Computer Science, with experience in software development, systems analysis, networking, infrastructure, technical support, software quality, and technology teaching. He works across front-end and back-end applications, APIs, databases, Linux and Windows environments, ERP, infrastructure, networking, and storage. He is expanding his practice into digital marketing, visual creation, brand presence, paid traffic, content, and engagement.",
+    "pillars": {
+      "build": {
+        "title": "Build",
+        "description": "Websites, systems, APIs, automations, integrations, and databases.",
+        "items": ["Websites", "Systems", "APIs", "Automations", "Integrations", "Databases"]
+      },
+      "communicate": {
+        "title": "Communicate",
+        "description": "Digital marketing, communication design, landing pages, content, brand presence, campaigns, and paid traffic.",
+        "items": ["Digital marketing", "Communication design", "Landing pages", "Content", "Brand presence", "Campaigns", "Paid traffic"]
+      },
+      "sustain": {
+        "title": "Sustain",
+        "description": "Support, hardware, infrastructure, networking, servers, testing, and quality.",
+        "items": ["Support", "Hardware", "Infrastructure", "Networking", "Servers", "Testing and quality"]
+      }
+    },
+    "technologiesTitle": "Technologies and practices",
+    "availability": "Remote services available nationally and internationally. On-site services subject to availability, location, and travel costs covered by the requester.",
+    "quote": "He who has a why to live can bear almost any how.",
+    "quoteAuthor": "Friedrich Nietzsche"
+  },
+  "archive": {
+    "sectionNumber": "02",
+    "title": "Archive",
+    "subtitle": "Recorded projects, certifications, and experience",
+    "tabs": {
+      "projects": "Projects",
+      "certifications": "Certifications",
+      "experiences": "Experience"
+    },
+    "counters": {
+      "projects": "{count, plural, =0 {No projects} one {# project} other {# projects}}",
+      "certifications": "{count, plural, =0 {No certifications} one {# certification} other {# certifications}}",
+      "experiences": "{count, plural, =0 {No experience entries} one {# experience entry} other {# experience entries}}"
+    },
+    "projects": {
+      "searchLabel": "Search by title or technology",
+      "searchPlaceholder": "Search the archive…",
+      "filterLabel": "Filter by category",
+      "allCategories": "All categories",
+      "viewDetails": "View details",
+      "coverAlt": "Cover of the project {title}",
+      "empty": "No projects published yet.",
+      "noResults": "No projects match your search.",
+      "clearFilters": "Clear filters",
+      "types": {
+        "professional": "Professional",
+        "brand": "Wesley Maia brand",
+        "academic": "Academic",
+        "conceptual": "Conceptual",
+        "in_development": "In development"
+      },
+      "statuses": {
+        "completed": "Completed",
+        "in_progress": "In progress",
+        "maintained": "Maintained",
+        "archived": "Archived"
+      },
+      "modal": {
+        "problem": "Problem",
+        "solution": "Solution",
+        "result": "Result",
+        "technologies": "Technologies",
+        "visitOriginal": "View original",
+        "viewRepository": "View repository",
+        "viewDemo": "View demo",
+        "watchVideo": "Watch video",
+        "closeProject": "Close project"
+      }
+    },
+    "certifications": {
+      "issuer": "Issuer",
+      "category": "Category",
+      "issued": "Issued",
+      "expires": "Expires",
+      "credentialCode": "Credential",
+      "verify": "Verify credential",
+      "empty": "No certifications published yet."
+    },
+    "experiences": {
+      "current": "Current",
+      "skills": "Skills",
+      "empty": "No experience entries published yet.",
+      "period": "{start} — {end}",
+      "present": "present"
+    }
+  },
+  "lab": {
+    "sectionNumber": "03",
+    "title": "Wesley Lab",
+    "subtitle": "Where challenges become solutions.",
+    "intro": "Choose what best describes your need. Related services will be highlighted and the form will be prepared for you.",
+    "needs": {
+      "build_site": "I want to build a website or system",
+      "fix_problem": "I need to solve a technical problem",
+      "promote_business": "I want to promote my business",
+      "improve_identity": "I want to improve my digital identity",
+      "meet_wesley": "I want to know Wesley professionally",
+      "other": "My need is different"
+    },
+    "needsLegend": "What do you need today?",
+    "servicesTitle": "Services",
+    "relatedServices": "Services related to your choice",
+    "startingPrice": "From {price}",
+    "priceOnRequest": "Investment defined after scope analysis.",
+    "remote": "Remote",
+    "onsite": "On-site",
+    "featured": "Featured",
+    "empty": "No services published yet.",
+    "meetWesleyHint": "Explore the full profile and the archive of projects, certifications, and experience.",
+    "goToProfile": "View profile",
+    "goToArchive": "View archive"
+  },
+  "contact": {
+    "title": "Start a conversation",
+    "subtitle": "Tell me what you need. You will hear back by email or WhatsApp, whichever you prefer.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "whatsappHint": "Include country/area code, e.g. +55 71 91234-5678",
+      "category": "Category of your need",
+      "message": "Describe your need",
+      "preferredContact": "Preferred contact method",
+      "preferredEmail": "Email",
+      "preferredWhatsapp": "WhatsApp",
+      "consent": "I authorize storing this data so my request can be answered, as described in the privacy policy."
+    },
+    "categories": {
+      "build_site": "Website or system",
+      "fix_problem": "Technical problem",
+      "promote_business": "Promotion and marketing",
+      "improve_identity": "Digital identity",
+      "meet_wesley": "Professional contact",
+      "other": "Other subject"
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "nameTooLong": "Name must be at most 120 characters.",
+      "emailInvalid": "Please enter a valid email.",
+      "whatsappInvalid": "Please enter a valid WhatsApp number.",
+      "emailOrWhatsapp": "Provide at least an email or a WhatsApp number.",
+      "categoryRequired": "Please choose a category.",
+      "messageRequired": "Describe your need in at least 10 characters.",
+      "messageTooLong": "Description must be at most 2000 characters.",
+      "preferredRequired": "Choose your preferred contact method.",
+      "consentRequired": "You must authorize storage to submit.",
+      "turnstileRequired": "Please complete the security check.",
+      "turnstileFailed": "Security verification failed. Reload and try again.",
+      "rateLimited": "Too many submissions in a short time. Please wait a few minutes.",
+      "serverError": "Could not send right now. Please try again shortly."
+    },
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "success": {
+      "title": "Message received",
+      "description": "Thank you for reaching out. You will hear back through the channel you chose.",
+      "continueWhatsapp": "Continue on WhatsApp",
+      "newMessage": "Send another message"
+    },
+    "whatsappMessage": "Hello, Wesley. My name is {name}. Category: {category}. {message}",
+    "publicChannels": "Public channels",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub"
+  },
+  "wesleyAi": {
+    "title": "Wesley AI",
+    "badge": "Coming soon",
+    "openPanel": "Open information about Wesley AI",
+    "description": "An assistant trained on this site's public content is under development. It will help you explore projects, services, and contact options.",
+    "notYet": "For now, these shortcuts take you straight to what you need:",
+    "goToArchive": "Explore the archive",
+    "goToLab": "Visit the Wesley Lab",
+    "goToContact": "Talk to Wesley"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "cookiePreferences": "Cookie preferences",
+    "builtBy": "Designed and developed by Wesley Maia."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies and privacy",
+      "description": "This site uses cookies that are necessary for it to work and, with your consent, anonymous usage metrics (Vercel Analytics).",
+      "acceptAll": "Accept all",
+      "rejectAnalytics": "Necessary only",
+      "customize": "Preferences"
+    },
+    "preferences": {
+      "title": "Cookie preferences",
+      "necessary": "Necessary",
+      "necessaryDescription": "Essential for the site to work: language, admin session, and your consent choice. They cannot be disabled.",
+      "analytics": "Analytics",
+      "analyticsDescription": "Anonymous navigation metrics (Vercel Analytics) to understand how the site is used. Loaded only with your consent.",
+      "save": "Save preferences"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy policy",
+      "updated": "Last updated: {date}"
+    },
+    "cookiesPage": {
+      "title": "Cookies",
+      "updated": "Last updated: {date}"
+    }
+  },
+  "pwa": {
+    "install": "Install app",
+    "offlineTitle": "You are offline",
+    "offlineDescription": "This page could not be loaded without a connection. Check your internet and try again.",
+    "offlineRetry": "Reload"
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The address you were looking for does not exist or has been moved.",
+    "goHome": "Go to home",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "An unexpected error occurred. You can try again.",
+    "tryAgain": "Try again"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin panel",
+      "subtitle": "Access restricted to the site administrator.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "invalidCredentials": "Invalid email or password.",
+      "unauthorized": "This email has no administrative permission.",
+      "genericError": "Could not sign in. Please try again."
+    },
+    "nav": {
+      "projects": "Projects",
+      "certifications": "Certifications",
+      "experiences": "Experience",
+      "profile": "Profile",
+      "viewSite": "View site",
+      "logout": "Sign out"
+    },
+    "profile": {
+      "title": "Profile files",
+      "description": "Upload the photo used in the hero and the résumé PDF made available for download.",
+      "photo": "Profile photo (JPEG, PNG, WebP, or AVIF, up to 5 MB)",
+      "resume": "Résumé PDF (up to 8 MB)",
+      "currentPhoto": "Current photo",
+      "currentResume": "Current résumé",
+      "noPhoto": "No photo uploaded.",
+      "noResume": "No résumé uploaded."
+    },
+    "table": {
+      "new": "New record",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDeleteTitle": "Confirm deletion",
+      "confirmDeleteDescription": "This action is permanent and cannot be undone.",
+      "published": "Published",
+      "hidden": "Hidden",
+      "publish": "Publish",
+      "hide": "Hide",
+      "featured": "Featured",
+      "aiVisible": "Visible to AI",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "actions": "Actions",
+      "empty": "No records yet.",
+      "status": "Status"
+    },
+    "form": {
+      "save": "Save",
+      "saving": "Saving…",
+      "cancel": "Cancel",
+      "created": "Record created successfully.",
+      "updated": "Record updated successfully.",
+      "deleted": "Record deleted.",
+      "error": "Could not save. Check the fields and try again.",
+      "fileTooLarge": "The file exceeds the maximum allowed size.",
+      "fileInvalidType": "File type not allowed.",
+      "uploadError": "Failed to upload the file.",
+      "portugueseSection": "Portuguese content",
+      "englishSection": "English content",
+      "settingsSection": "Settings",
+      "filesSection": "Files",
+      "currentFile": "Current file",
+      "preview": "Preview",
+      "required": "Required field",
+      "invalidUrl": "Invalid URL",
+      "invalidSlug": "Use only lowercase letters, numbers, and hyphens",
+      "invalidDate": "Invalid date"
+    },
+    "projects": {
+      "title": "Projects",
+      "fields": {
+        "slug": "Slug (URL)",
+        "titlePt": "Title (PT)",
+        "titleEn": "Title (EN)",
+        "summaryPt": "Summary (PT)",
+        "summaryEn": "Summary (EN)",
+        "problemPt": "Problem (PT)",
+        "problemEn": "Problem (EN)",
+        "solutionPt": "Solution (PT)",
+        "solutionEn": "Solution (EN)",
+        "resultPt": "Result (PT, optional)",
+        "resultEn": "Result (EN, optional)",
+        "category": "Category",
+        "projectType": "Project type",
+        "status": "Status",
+        "technologies": "Technologies (comma-separated)",
+        "cover": "Cover image",
+        "videoUrl": "Video URL (optional)",
+        "demoUrl": "Demo URL (optional)",
+        "repositoryUrl": "Repository URL (optional, only if public)",
+        "originalUrl": "Original URL (optional)"
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "fields": {
+        "title": "Name",
+        "issuer": "Issuer",
+        "category": "Category",
+        "issueDate": "Issue date",
+        "expirationDate": "Expiration (optional)",
+        "credentialCode": "Credential code (optional)",
+        "credentialUrl": "Verification URL (optional)",
+        "privateFile": "Certificate file (private)"
+      },
+      "privateNote": "The file is stored in a private bucket and is never exposed publicly."
+    },
+    "experiences": {
+      "title": "Experience",
+      "fields": {
+        "company": "Company",
+        "rolePt": "Role (PT)",
+        "roleEn": "Role (EN)",
+        "descriptionPt": "Description (PT)",
+        "descriptionEn": "Description (EN)",
+        "startDate": "Start date",
+        "endDate": "End date (optional)",
+        "isCurrent": "Current position",
+        "skills": "Skills (comma-separated)"
+      }
+    }
+  },
+  "meta": {
+    "title": "Wesley Maia — Developer and Digital Solutions Specialist",
+    "description": "Portfolio of Wesley Maia: development of websites, systems and APIs, infrastructure, support, software quality, and digital communication. Remote services available nationally and internationally.",
+    "privacyTitle": "Privacy policy — Wesley Maia",
+    "privacyDescription": "How this site handles personal data submitted through the contact form.",
+    "cookiesTitle": "Cookies — Wesley Maia",
+    "cookiesDescription": "Which cookies this site uses and how to control your preferences."
+  }
+}

@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+:root {
+  --background: #05070b;
+  --background-secondary: #080d15;
+  --surface: #0c1521;
+  --surface-elevated: #111d2c;
+  --navy: #102a43;
+  --blue: #315c7c;
+  --blue-light: #7ea4c1;
+  --ivory: #e8e2d6;
+  --text-muted: #a8adb5;
+  --antique-brass: #8c7650;
+  --border: rgba(232, 226, 214, 0.14);
+  --border-strong: rgba(232, 226, 214, 0.28);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-navy: var(--navy);
+  --color-blue: var(--blue);
+  --color-blue-light: var(--blue-light);
+  --color-ivory: var(--ivory);
+  --color-muted: var(--text-muted);
+  --color-brass: var(--antique-brass);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --breakpoint-xs: 23.75rem;
+  --breakpoint-3xl: 120rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--ivory);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle archival paper grain built with CSS only. */
+.texture-grain {
+  position: relative;
+}
+
+.texture-grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.35;
+  background-image:
+    radial-gradient(rgba(232, 226, 214, 0.025) 1px, transparent 1px),
+    radial-gradient(rgba(16, 42, 67, 0.35) 1px, transparent 1.4px);
+  background-size:
+    3px 3px,
+    7px 7px;
+  background-position:
+    0 0,
+    2px 3px;
+}
+
+/* Editorial frame: thin double border used on cards and portraits. */
+.frame-editorial {
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.frame-editorial::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid var(--border);
+  pointer-events: none;
+}
+
+/* Ornamental divider with a small brass diamond in the middle. */
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--antique-brass);
+}
+
+.divider-ornament::before,
+.divider-ornament::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--border-strong),
+    transparent
+  );
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background-color: var(--blue);
+  color: var(--ivory);
+}
+
+/* Visible focus for all interactive elements as a safety net. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
